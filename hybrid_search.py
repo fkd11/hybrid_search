@@ -4,6 +4,7 @@ from typing import List, Tuple
 import faiss
 from rank_bm25 import BM25Okapi
 from sentence_transformers import SentenceTransformer
+from fugashi import Tagger
 
 
 class HybridSearch:
